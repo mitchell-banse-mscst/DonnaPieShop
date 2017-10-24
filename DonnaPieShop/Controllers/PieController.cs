@@ -20,7 +20,6 @@ namespace DonnaPieShop.Controllers
             _pieRepository = pieRepository;
             _categoryRepository = categoryRepository;
         }
-
         //public ViewResult List()
         //{
         //    PiesViewListModel piesListViewModel = new PiesViewListModel();
