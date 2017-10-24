@@ -60,7 +60,7 @@ namespace DonnaPieShop
             routes.MapRoute(
                 name: "categoryfilter",
                 template: "Pie/{action}/{category?}",
-                    defaults: new { Controller = "Pie", action = "List" });
+                defaults: new { Controller = "Pie", action = "List" });
 
                 routes.MapRoute(
                     name: "default",
